@@ -1,7 +1,9 @@
-#include <iostream>
+#include "../include/cman/app.hpp"
 
-int main(){
-  std::cout << "hello world!" << "\n";
+
+int main(int argc, char* args[]){
+  cman::App app;
+  return app.run(argc, args);
 
    
 }
